@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame(` By *help .`,'https://www.twitch.tv/v5bz');
+  client.user.setGame(`*help .`,'https://www.twitch.tv/v5bz');
   console.log('---------------');
   console.log('DREAM Bot Is Online')
   console.log('---------------')
